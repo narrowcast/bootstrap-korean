@@ -1,4 +1,4 @@
 bootstrap-korean
 ================
 
-Less and css to make Hangul look beautiful with Twitter Bootstrap in all browsers
+Less and css for rendering Korean attractively with Twitter Bootstrap.
