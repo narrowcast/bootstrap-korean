@@ -1,8 +1,82 @@
+/* Use pretty fonts or resort to system defaults (AppleGothic, Gulim, etc.) */
+@korean-fonts: "나눔고딕", "NanumGothic", "NanumGothicOTF", "맑은 고딕", "Malgun Gothic";
+
 body {
-  font-family: "Helvetica Neue", "나눔고딕", "NanumGothic", "NanumGothicOTF", "맑은 고딕", "Malgun Gothic", "돋움", "Dotum", sans-serif;
-  line-height: 24px;
+  font-family: "Helvetica Neue", Helvetica, Arial, @korean-fonts, sans-serif;
+  font-size: 13px;
 }
 
-p {
-  margin-bottom: 12px;
+input, button, select, textarea {
+  font-family: "Helvetica Neue", Helvetica, Arial, @korean-fonts, sans-serif;
+}
+
+.lead {
+  font-size: 19.5px
+}
+
+legend {
+  font-size: 19.5px;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+  font-size: 13px;
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  font-size: 13px;
+}
+
+.input-append input,
+.input-prepend input,
+.input-append select,
+.input-prepend select,
+.input-append .uneditable-input,
+.input-prepend .uneditable-input {
+  font-size: 13px;
+}
+
+.input-append .add-on,
+.input-prepend .add-on {
+  font-size: 13px;
+}
+
+.btn {
+  font-size: 13px;
+}
+
+.btn-large {
+  font-size: 15px;
+}
+
+.btn-small {
+  font-size: 11px;
+}
+
+.btn-mini {
+  font-size: 10px;
+}
+
+.btn-group > .btn,
+.btn-group > .dropdown-menu {
+  font-size: 13px;
 }
